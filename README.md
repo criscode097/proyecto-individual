@@ -23,13 +23,11 @@ Esta ficha interactiva presenta el perfil profesional de un anfitrión de alquil
 ## 📸 Screenshots
 
 ### Modo Claro
-![Modo Claro](https://via.placeholder.com/800x600/4299e1/ffffff?text=Modo+Claro+-+Tarjeta+de+Presentación)
+![Modo Claro](Screenshots/Claro.png)
 
 ### Modo Oscuro
-![Modo Oscuro](https://via.placeholder.com/800x600/1a202c/ffffff?text=Modo+Oscuro+-+Tarjeta+de+Presentación)
+![Modo Oscuro](Screenshots/Oscuro.png)
 
-### Propiedades Desplegadas
-![Propiedades](https://via.placeholder.com/800x600/667eea/ffffff?text=Vista+de+Propiedades)
 
 ## 🎯 Autoevaluación
 - Funcionalidad: 100%
@@ -74,17 +72,4 @@ Esta ficha interactiva presenta el perfil profesional de un anfitrión de alquil
 - `slice()` - Para mostrar solo las primeras 4 propiedades
 - `forEach()` - Para iterar sobre arrays en cálculos adicionales
 
-## 💻 Tecnologías
-- HTML5
-- CSS3 con Custom Properties (Variables CSS)
-- JavaScript ES2023 (Vanilla JS)
-- LocalStorage API
-- Clipboard API
 
-## 📝 Notas Adicionales
-- El código está completamente comentado en español
-- La nomenclatura técnica está en inglés
-- No se usa `var` en ninguna parte del código
-- Todas las funciones son arrow functions
-- El destructuring se aplica en objetos y arrays
-- Se utilizan operadores modernos como `?.` y `??`
