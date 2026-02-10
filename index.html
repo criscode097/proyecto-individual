@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristian Martinez - Anfitrión Profesional</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Business Card -->
+    <div class="card" id="businessCard">
+      <!-- Header Section -->
+      <div class="card-header">
+        <div class="avatar">
+          <div id="avatar-initials" class="avatar-initials">CM</div>
+        </div>
+        <div class="header-info">
+          <h1 id="entity-name"></h1>
+          <p class="title" id="entity-title"></p>
+          <p class="location" id="entity-location"></p>
+        </div>
+      </div>
+
+      <!-- Bio Section -->
+      <div class="card-section">
+        <h2>Acerca de Mí</h2>
+        <p id="entity-description" class="bio"></p>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="card-section">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <span id="entity-email"></span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📱</span>
+            <span id="entity-phone"></span>
+          </div>
+          <button id="copy-btn" class="btn">📋 Copiar Información</button>
+        </div>
+      </div>
+
+      <!-- Properties Section (Items) -->
+      <div class="card-section">
+        <h2>Mis Propiedades</h2>
+        <div id="items-list" class="skills-list">
+        </div>
+        <button id="toggle-items" class="btn btn-secondary">Mostrar más</button>
+      </div>
+
+      <!-- Social Links Section -->
+      <div class="card-section">
+        <h2>Enlaces</h2>
+        <div id="links-container" class="social-links">
+        </div>
+      </div>
+
+      <!-- Statistics Section -->
+      <div class="card-section">
+        <h2>Estadísticas</h2>
+        <div id="stats" class="stats-grid">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Construido con ❤️ usando ES2023 JavaScript</p>
+      <p class="small">Proyecto Semana 01 - JavaScript Moderno</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <span id="toast-message"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
